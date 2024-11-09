@@ -34,17 +34,6 @@ const Login: FC = () => {
     </Wrapper>
   );
 };
-const TwitchBlurb = styled.a`
-  display: flex;
-  align-items: center;
-  justify-center: center;
-  width: 800px;
-  color: black;
-  text-decoration: none;
-  img {
-    margin-right: 7px;
-  }
-`;
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
